@@ -49,7 +49,13 @@ def search_mooc(intent_request):
     if source == 'DialogCodeHook':
         slots = get_slots(intent_request)
         
-    # defining a params dict for the parameters to be sent to the API     
+    # defining a params dict for the parameters to be sent to the API
+    """
+    It's a recommened coding practice not to write any credentials in the code directly. For that, below the code console 
+    there is a section called 'Environment variables'. There two key-value pair have been created,
+    one for the API key another one for the Custom Engine ID. and value for each of the variables can be accessed through 
+    this command os.environ['KEY_NAME'].
+    """     
     key = os.environ['key']
     cx = os.environ['cx']
     q = topics+" courses"
