@@ -1,0 +1,19 @@
+{
+  "messageVersion": "1.0",
+  "invocationSource": "DialogCodeHook",
+  "userId": "Saikat",
+  "sessionAttributes": {},
+  "bot": {
+    "name": "CourseQuery",
+    "alias": "$LATEST",
+    "version": "$LATEST"
+  },
+  "outputDialogMode": "Text",
+  "currentIntent": {
+    "name": "SearchMOOC",
+    "slots": {
+      "Topics": "Machine Learning"
+    },
+    "confirmationStatus": "None"
+  }
+}
