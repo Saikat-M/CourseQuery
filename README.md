@@ -24,7 +24,7 @@ The services and components that have been used to build and use this chatbot in
 <li><b>Google Custom Search API </b>: This API is offered by GCP and it has been used to search the internet using Google search engine with <i>topic</i> name provided by the user and give response accordingly</li>
 <li><b>Twilio</b> : This is a third party service that has been used to integrate the <b>Amazon Lex bot</b> with <b>Whatsapp</b></li>
 
-Now what configuration & developed need to be done for the above mentioned services to build this kind of a chatbot has been explained next.
+Now what configuration & development needed to be done for the above mentioned services to build this kind of a chatbot has been explained next.
 
 <h3>Amazon Lex</h3>
 <hr>
